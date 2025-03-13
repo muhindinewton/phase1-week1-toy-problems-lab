@@ -1,3 +1,4 @@
+// Function to calculate net salary based on basic salary and benefits
 function calculateNetSalary(basicSalary, benefits) {
     const grossSalary = basicSalary + benefits;
 
@@ -29,6 +30,6 @@ function calculateNetSalary(basicSalary, benefits) {
     };
 }
 
-let basicSalary = parseFloat(prompt("Enter basic salary: "));
-let benefits = parseFloat(prompt("Enter benefits: "));
-console.log(calculateNetSalary(basicSalary, benefits));
+let basicSalary = parseFloat(prompt("Enter basic salary: ")); // Prompt for basic salary
+let benefits = parseFloat(prompt("Enter benefits: "));  // Prompt for benefits
+console.log(calculateNetSalary(basicSalary, benefits));  // Display the results
